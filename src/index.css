@@ -1,0 +1,149 @@
+/* :root {
+  --color-primary: #4c1d95;
+  --color-secondary: #09090b;
+  --bg-gray: #dfe1e4;
+  --bg-purple: #5142fc;
+}
+
+body {
+  background-color: var(--bg-gray);
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(rgba(12, 11, 12, 0.3),
+      rgba(0, 0, 0, .5)),
+    url("../src/assets/background-frontPage.jpg") center 0 / cover no-repeat;
+  background-attachment: fixed;
+}
+
+.bg-purple {
+  background-color: var(--bg-purple);
+}
+
+.bg-glass {
+  background: rgba(255, 255, 255, 0.35);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+.bg-success {
+  background-color: #22c55e !important;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 0 #5142fc,
+    2px -2px 0 #5142fc,
+    -2px 2px 0 #5142fc,
+    -2px -2px 0 #5142fc,
+    2px 0px 0 #5142fc,
+    0px 2px 0 #5142fc,
+    -2px 0px 0 #5142fc,
+    0px -2px 0 #5142fc;
+}
+
+.text-purple {
+  color: var(--color-primary);
+}
+
+.bg-danger,
+.text-bg-danger {
+  background-color: #dc2626 !important;
+}
+
+.filter-sidebar {
+  margin-top: 10rem;
+}
+
+.backdrop-filter {
+  backdrop-filter: blur(5px);
+}
+
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+
+.list-item {
+  list-style: none;
+  cursor: pointer;
+}
+
+.text-small {
+  font-size: .8rem;
+}
+
+@media (767px <=width < 992px) {
+  .filter-sidebar {
+    margin-top: 12rem !important;
+  }
+}
+
+@media (width >=992px) {
+
+  .mt-lg-5,
+  .filter-sidebar {
+    margin: 12rem 0 !important;
+    border-radius: 2rem !important;
+  }
+} */
+body{
+  font-family: "Montserrat", sans-serif;
+  background-color: #1a1a1a;
+}
+.bg-primary,
+.text-bg-primary{
+  background-color: #3c38ff !important;
+}
+.bg-list-product{
+  background-color: #eeeeee;
+}
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+.bg-danger,
+.text-bg-danger {
+  background-color: #dc2626 !important;
+}
+.text-small{
+  font-size: .8rem;
+}
+@media ( 0 <= width < 992px) {
+  .list-category,
+  .group-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .btn-todo{
+    margin: 0 .7rem 0 0;
+  }
+  .btn-filter,
+  .btn-price-filter{
+    background-color: #3c38ff !important;
+    flex-grow: 1;
+    margin: 0 .7rem 0 0;
+  }
+  .btn-price-filter{
+    margin-bottom: 1rem;
+    border-radius: .4rem;
+    padding: 0 .5rem;
+  }
+  .fixed-top {
+    position: relative !important;
+    width: 100% !important;
+    padding: 0 !important;
+    z-index: -1;
+    margin-top: 10rem;
+  }
+  .bg-list-product{
+    border-radius: 1rem 1rem 0 0 !important;
+    margin: 0 !important;
+  }
+  .bar-position-sticky{
+    position: fixed;
+    left: 0;
+    width: 100% !important;
+    border-radius: 0 !important;
+    top:0;
+    z-index: 100;
+    padding: 1rem 0;
+  }
+}

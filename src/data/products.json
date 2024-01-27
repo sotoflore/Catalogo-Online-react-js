@@ -1,0 +1,181 @@
+[
+    {
+        "id": 1,
+        "image":"/src/assets/productos/mujeres/Lampara-secadora-de-uñas.jpg",
+        "name": "Lámpara Secadora de Uñas",
+        "category": "Mujeres",
+        "price": 35,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    },
+     {
+        "id": 2,
+        "image":"/src/assets/productos/mujeres/Medias-osito.jpg",
+        "name": "Medias Osito 10 Pares",
+        "category": "Mujeres",
+        "price": 16,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    },
+     {
+        "id": 3,
+        "image":"/src/assets/productos/mujeres/Mini-aro-led.jpg",
+        "name": "Mini Aro Led",
+        "category": "Mujeres",
+        "price": 10,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    },
+     {
+        "id": 4,
+        "image":"/src/assets/productos/mujeres/Mini-lampara-secadora-de-uñas.jpg",
+        "name": "Mini Lámpara Secadora de Uñas",
+        "category": "Mujeres",
+        "price": 18,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    },
+     {
+        "id": 5,
+        "image":"/src/assets/productos/mujeres/Mochila-antirrobo.jpg",
+        "name": "Mochila Antirrobo",
+        "category": "Mujeres",
+        "price": 28,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    },
+     {
+        "id": 6,
+        "image":"/src/assets/productos/mujeres/Morral-gatito.jpg",
+        "name": "Morral Gatito",
+        "category": "Mujeres",
+        "price": 16,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    },
+    {
+        "id": 7,
+        "image":"/src/assets/productos/mujeres/Short-saca-pompis-1.jpg",
+        "name": "Short Saca Pompis Color Gris",
+        "category": "Mujeres",
+        "price": 15,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    },
+     {
+        "id": 8,
+        "image":"/src/assets/productos/mujeres/Short-saca-pompis-2.jpg",
+        "name": "Short Saca Pompis Color Verde",
+        "category": "Mujeres",
+        "price": 15,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    },
+    {
+        "id": 9,
+        "image":"/src/assets/productos/tecnologia/Air-pods-Max.jpg",
+        "name": "Air Pods Max",
+        "category": "Tecnología",
+        "price": 80,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    },
+    {
+        "id": 10,
+        "image":"/src/assets/productos/tecnologia/Foco-camara-espia.jpg",
+        "name": "Foco Cámara Espía",
+        "category": "Tecnología",
+        "price": 99,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    }
+    ,
+    {
+        "id": 11,
+        "image":"/src/assets/productos/tecnologia/Mini-empresora-portatil.jpg",
+        "name": "Mini Empresora Portátil",
+        "category": "Tecnología",
+        "price": 85,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    }
+    ,
+    {
+        "id": 12,
+        "image":"/src/assets/productos/salud-y-belleza/Banda-antirronquido.jpg",
+        "name": "Banda Antirronquido",
+        "category": "Salud y Belleza",
+        "price": 26,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    }
+    ,
+    {
+        "id": 13,
+        "image":"/src/assets/productos/salud-y-belleza/Corrector-de-postura.jpg",
+        "name": "Corrector de Postura",
+        "category": "Salud y Belleza",
+        "price": 26,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    }
+    ,
+    {
+        "id": 14,
+        "image":"/src/assets/productos/salud-y-belleza/Ejercitador-de-dedos.jpg",
+        "name": "Ejercitador de Dedos",
+        "category": "Salud y Belleza",
+        "price": 5,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    }
+    ,
+    {
+        "id": 15,
+        "image":"/src/assets/productos/salud-y-belleza/Saca-espiñillas-4pcs.jpg",
+        "name": "Saca Espiñillas 4 Piezas",
+        "category": "Salud y Belleza",
+        "price": 8,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    }
+    ,
+    {
+        "id": 16,
+        "image":"/src/assets/productos/niños-y-niñas/Mochila-ninos-dinosaurios.jpg",
+        "name": "Mochila de Niños Dinosaurios",
+        "category": "Niños y Niñas",
+        "price": 50,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    }
+    ,
+    {
+        "id": 17,
+        "image":"/src/assets/productos/niños-y-niñas/Mochila-niños-cars.jpg",
+        "name": "Mochila de Niños Cars",
+        "category": "Niños y Niñas",
+        "price": 50,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    }
+    ,
+    {
+        "id": 18,
+        "image":"/src/assets/productos/niños-y-niñas/Mochila-ñinas-gatitos.jpg",
+        "name": "Mochila de Niñas Gatitos",
+        "category": "Niños y Niñas",
+        "price": 50,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    }
+    ,
+    {
+        "id": 19,
+        "image":"/src/assets/productos/niños-y-niñas/Pizarra-magica.jpg",
+        "name": "Pizarra Mágica",
+        "category": "Niños y Niñas",
+        "price": 16,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    }
+    ,
+    {
+        "id": 20,
+        "image":"/src/assets/productos/niños-y-niñas/Set-de-arte-de-208pcs.jpg",
+        "name": "Set de Arte de 208 Piezas",
+        "category": "Niños y Niñas",
+        "price": 38,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    }
+    ,
+    {
+        "id": 21,
+        "image":"/src/assets/productos/hogar/Tetera-de-vidrio.jpg",
+        "name": "Tetera de Vidrio",
+        "category": "Hogar",
+        "price": 45,
+        "description":"Lorem ipsum dolor sit amet consectetur adipiscing elit sodales hac, ultricies dapibus tortor ante nascetur habitasse enim praesent diam sagittis, mi himenaeos turpis cubilia per pulvinar egestas scelerisque. "
+    }
+]
