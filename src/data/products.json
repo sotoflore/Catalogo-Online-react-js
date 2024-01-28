@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image":"./src/assets/productos/mujeres/Lampara-secadora-de-uñas.jpg",
+        "image":".../assets/productos/mujeres/Lampara-secadora-de-uñas.jpg",
         "name": "Lámpara Secadora de Uñas",
         "category": "Mujeres",
         "price": 35,
