@@ -130,8 +130,8 @@ body{
     position: relative !important;
     width: 100% !important;
     padding: 0 !important;
-    z-index: -1;
     margin-top: 10rem;
+    z-index: 1;
   }
   .bg-list-product{
     border-radius: 1rem 1rem 0 0 !important;
@@ -140,10 +140,10 @@ body{
   .bar-position-sticky{
     position: fixed;
     left: 0;
-    width: 100% !important;
     border-radius: 0 !important;
     top:0;
-    z-index: 100;
+    z-index: 2;
     padding: 1rem 0;
+    border: 1px solid red;
   }
 }
