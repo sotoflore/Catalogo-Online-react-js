@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image":"/src/assets/productos/mujeres/lampara-secadora-de-uñas.jpg",
+        "image":"https://i.postimg.cc/Qx8QMNPZ/Lampara-secadora-de-u-as.jpg",
         "name": "Lámpara Secadora de Uñas",
         "category": "Mujeres",
         "price": 35,
@@ -9,7 +9,7 @@
     },
      {
         "id": 2,
-        "image":"/src/assets/productos/mujeres/medias-osito.jpg",
+        "image":"https://i.postimg.cc/vZD5WqbP/Medias-osito.jpg",
         "name": "Medias Osito 10 Pares",
         "category": "Mujeres",
         "price": 16,
@@ -17,7 +17,7 @@
     },
      {
         "id": 3,
-        "image":"/src/assets/productos/mujeres/Mini-aro-led.jpg",
+        "image":"https://i.postimg.cc/9f7TkD4Z/Mini-aro-led.jpg",
         "name": "Mini Aro Led",
         "category": "Mujeres",
         "price": 10,
@@ -25,7 +25,7 @@
     },
      {
         "id": 4,
-        "image":"/src/assets/productos/mujeres/Mini-lampara-secadora-de-uñas.jpg",
+        "image":"https://i.postimg.cc/CLcjnTTB/Mini-lampara-secadora-de-u-as.jpg",
         "name": "Mini Lámpara Secadora de Uñas",
         "category": "Mujeres",
         "price": 18,
@@ -33,7 +33,7 @@
     },
      {
         "id": 5,
-        "image":"/src/assets/productos/mujeres/Mochila-antirrobo.jpg",
+        "image":"https://i.postimg.cc/LXFfFmf7/Mochila-antirrobo.jpg",
         "name": "Mochila Antirrobo",
         "category": "Mujeres",
         "price": 28,
@@ -41,7 +41,7 @@
     },
      {
         "id": 6,
-        "image":"/src/assets/productos/mujeres/Morral-gatito.jpg",
+        "image":"https://i.postimg.cc/Hx0MpF9L/Morral-gatito.jpg",
         "name": "Morral Gatito",
         "category": "Mujeres",
         "price": 16,
@@ -49,7 +49,7 @@
     },
     {
         "id": 7,
-        "image":"/src/assets/productos/mujeres/Short-saca-pompis-1.jpg",
+        "image":"https://i.postimg.cc/VvYC54KW/Short-saca-pompis-1.jpg",
         "name": "Short Saca Pompis Color Gris",
         "category": "Mujeres",
         "price": 15,
@@ -57,7 +57,7 @@
     },
      {
         "id": 8,
-        "image":"/src/assets/productos/mujeres/Short-saca-pompis-2.jpg",
+        "image":"https://i.postimg.cc/SRDz985F/Short-saca-pompis-2.jpg",
         "name": "Short Saca Pompis Color Verde",
         "category": "Mujeres",
         "price": 15,
@@ -65,7 +65,7 @@
     },
     {
         "id": 9,
-        "image":"/src/assets/productos/tecnologia/Air-pods-Max.jpg",
+        "image":"https://i.postimg.cc/vBHptxHL/Air-pods-Max.jpg",
         "name": "Air Pods Max",
         "category": "Tecnología",
         "price": 80,
@@ -73,7 +73,7 @@
     },
     {
         "id": 10,
-        "image":"/src/assets/productos/tecnologia/Foco-camara-espia.jpg",
+        "image":"https://i.postimg.cc/85KxKk78/Foco-camara-espia.jpg",
         "name": "Foco Cámara Espía",
         "category": "Tecnología",
         "price": 99,
@@ -82,7 +82,7 @@
     ,
     {
         "id": 11,
-        "image":"/src/assets/productos/tecnologia/Mini-empresora-portatil.jpg",
+        "image":"https://i.postimg.cc/3wZsGF7x/Mini-empresora-portatil.jpg",
         "name": "Mini Empresora Portátil",
         "category": "Tecnología",
         "price": 85,
@@ -91,7 +91,7 @@
     ,
     {
         "id": 12,
-        "image":"/src/assets/productos/salud-y-belleza/Banda-antirronquido.jpg",
+        "image":"https://i.postimg.cc/Kv0S4NGc/Banda-antirronquido.jpg",
         "name": "Banda Antirronquido",
         "category": "Salud y Belleza",
         "price": 26,
@@ -100,7 +100,7 @@
     ,
     {
         "id": 13,
-        "image":"/src/assets/productos/salud-y-belleza/Corrector-de-postura.jpg",
+        "image":"https://i.postimg.cc/K84XTMjP/Corrector-de-postura.jpg",
         "name": "Corrector de Postura",
         "category": "Salud y Belleza",
         "price": 26,
@@ -109,7 +109,7 @@
     ,
     {
         "id": 14,
-        "image":"/src/assets/productos/salud-y-belleza/Ejercitador-de-dedos.jpg",
+        "image":"https://i.postimg.cc/nLQ6RfvM/Ejercitador-de-dedos.jpg",
         "name": "Ejercitador de Dedos",
         "category": "Salud y Belleza",
         "price": 5,
@@ -118,7 +118,7 @@
     ,
     {
         "id": 15,
-        "image":"/src/assets/productos/salud-y-belleza/Saca-espiñillas-4pcs.jpg",
+        "image":"https://i.postimg.cc/SxPBfxYw/Saca-espi-illas-4pcs.jpg",
         "name": "Saca Espiñillas 4 Piezas",
         "category": "Salud y Belleza",
         "price": 8,
@@ -127,7 +127,7 @@
     ,
     {
         "id": 16,
-        "image":"/src/assets/productos/niños-y-niñas/Mochila-ninos-dinosaurios.jpg",
+        "image":"https://i.postimg.cc/kX2Q0JpJ/Mochila-ninos-dinosaurios.jpg",
         "name": "Mochila de Niños Dinosaurios",
         "category": "Niños y Niñas",
         "price": 50,
@@ -136,7 +136,7 @@
     ,
     {
         "id": 17,
-        "image":"/src/assets/productos/niños-y-niñas/Mochila-niños-cars.jpg",
+        "image":"https://i.postimg.cc/MHFynNvJ/Mochila-ni-os-cars.jpg",
         "name": "Mochila de Niños Cars",
         "category": "Niños y Niñas",
         "price": 50,
@@ -145,7 +145,7 @@
     ,
     {
         "id": 18,
-        "image":"/src/assets/productos/niños-y-niñas/Mochila-ñinas-gatitos.jpg",
+        "image":"https://i.postimg.cc/0jQY2P5C/Mochila-inas-gatitos.jpg",
         "name": "Mochila de Niñas Gatitos",
         "category": "Niños y Niñas",
         "price": 50,
@@ -154,7 +154,7 @@
     ,
     {
         "id": 19,
-        "image":"/src/assets/productos/niños-y-niñas/Pizarra-magica.jpg",
+        "image":"https://i.postimg.cc/3JzX7ssg/Pizarra-magica.jpg",
         "name": "Pizarra Mágica",
         "category": "Niños y Niñas",
         "price": 16,
@@ -163,7 +163,7 @@
     ,
     {
         "id": 20,
-        "image":"/src/assets/productos/niños-y-niñas/Set-de-arte-de-208pcs.jpg",
+        "image":"https://i.postimg.cc/y6Qhpgnp/Set-de-arte-de-208pcs.jpg",
         "name": "Set de Arte de 208 Piezas",
         "category": "Niños y Niñas",
         "price": 38,
@@ -172,7 +172,7 @@
     ,
     {
         "id": 21,
-        "image":"/src/assets/productos/hogar/Tetera-de-vidrio.jpg",
+        "image":"https://i.postimg.cc/ZRbmnK92/Tetera-de-vidrio.jpg",
         "name": "Tetera de Vidrio",
         "category": "Hogar",
         "price": 45,
