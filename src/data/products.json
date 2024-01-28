@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image":"src/assets/productos/mujeres/Lampara-secadora-de-uñas.jpg",
+        "image":"https://drive.google.com/file/d/1e7IdYYAyIXys9U3CeBK19DliMvzAE4_w/view?usp=sharing",
         "name": "Lámpara Secadora de Uñas",
         "category": "Mujeres",
         "price": 35,
@@ -9,7 +9,7 @@
     },
      {
         "id": 2,
-        "image":"/src/assets/productos/mujeres/Medias-osito.jpg",
+        "image":"https://drive.google.com/file/d/1iOWU8ZbLAjUvqSX9B0BFoRl5j5lIx0Ow/view?usp=drive_link",
         "name": "Medias Osito 10 Pares",
         "category": "Mujeres",
         "price": 16,
@@ -17,7 +17,7 @@
     },
      {
         "id": 3,
-        "image":"/src/assets/productos/mujeres/Mini-aro-led.jpg",
+        "image":"https://drive.google.com/file/d/1JIbCpO6UEAegXo1TZ7QrmGmUlAUdoN3j/view?usp=drive_link",
         "name": "Mini Aro Led",
         "category": "Mujeres",
         "price": 10,
@@ -25,7 +25,7 @@
     },
      {
         "id": 4,
-        "image":"/src/assets/productos/mujeres/Mini-lampara-secadora-de-uñas.jpg",
+        "image":"https://drive.google.com/file/d/1X7bs3Lm4p9b1ZKZHNhWUMNzrjqpej5T6/view?usp=drive_link",
         "name": "Mini Lámpara Secadora de Uñas",
         "category": "Mujeres",
         "price": 18,
@@ -33,7 +33,7 @@
     },
      {
         "id": 5,
-        "image":"/src/assets/productos/mujeres/Mochila-antirrobo.jpg",
+        "image":"https://drive.google.com/file/d/1xr8e0LC8qFSRd22pOqwDZYNFLgkJpw0J/view?usp=drive_link",
         "name": "Mochila Antirrobo",
         "category": "Mujeres",
         "price": 28,
@@ -41,7 +41,7 @@
     },
      {
         "id": 6,
-        "image":"/src/assets/productos/mujeres/Morral-gatito.jpg",
+        "image":"https://drive.google.com/file/d/1ekF5F4KP8yVd8Qm-JGBJDWnYeCa2bm95/view?usp=drive_link",
         "name": "Morral Gatito",
         "category": "Mujeres",
         "price": 16,
@@ -49,7 +49,7 @@
     },
     {
         "id": 7,
-        "image":"/src/assets/productos/mujeres/Short-saca-pompis-1.jpg",
+        "image":"https://drive.google.com/file/d/1ZnzOltQwGYEKPRDQuMvr9qNc0lOyVMCN/view?usp=drive_link",
         "name": "Short Saca Pompis Color Gris",
         "category": "Mujeres",
         "price": 15,
@@ -57,7 +57,7 @@
     },
      {
         "id": 8,
-        "image":"/src/assets/productos/mujeres/Short-saca-pompis-2.jpg",
+        "image":"https://drive.google.com/file/d/1ueQFPCgJHQyiWSaE5LTRy80i2EGpeNXT/view?usp=drive_link",
         "name": "Short Saca Pompis Color Verde",
         "category": "Mujeres",
         "price": 15,
@@ -65,7 +65,7 @@
     },
     {
         "id": 9,
-        "image":"/src/assets/productos/tecnologia/Air-pods-Max.jpg",
+        "image":"https://drive.google.com/file/d/1iqRMzaEC6zzUAU8SfX_xGmpOiC3aLkB6/view?usp=drive_link",
         "name": "Air Pods Max",
         "category": "Tecnología",
         "price": 80,
@@ -73,7 +73,7 @@
     },
     {
         "id": 10,
-        "image":"/src/assets/productos/tecnologia/Foco-camara-espia.jpg",
+        "image":"https://drive.google.com/file/d/1ja90g_lf3cyFlCoECC3S-sSt1jh33_pp/view?usp=drive_link",
         "name": "Foco Cámara Espía",
         "category": "Tecnología",
         "price": 99,
@@ -82,7 +82,7 @@
     ,
     {
         "id": 11,
-        "image":"/src/assets/productos/tecnologia/Mini-empresora-portatil.jpg",
+        "image":"https://drive.google.com/file/d/1oKMFLfbIHKIXp-lWNYMCi9Qeyou8lW3L/view?usp=drive_link",
         "name": "Mini Empresora Portátil",
         "category": "Tecnología",
         "price": 85,
@@ -91,7 +91,7 @@
     ,
     {
         "id": 12,
-        "image":"/src/assets/productos/salud-y-belleza/Banda-antirronquido.jpg",
+        "image":"https://drive.google.com/file/d/14tnzBUR7-p1_dDrnALuCEhEyiypZxnaz/view?usp=drive_link",
         "name": "Banda Antirronquido",
         "category": "Salud y Belleza",
         "price": 26,
@@ -100,7 +100,7 @@
     ,
     {
         "id": 13,
-        "image":"/src/assets/productos/salud-y-belleza/Corrector-de-postura.jpg",
+        "image":"https://drive.google.com/file/d/1OOIAxflGGyZbMzOO5SmWBXhtE4vqWVb4/view?usp=drive_link",
         "name": "Corrector de Postura",
         "category": "Salud y Belleza",
         "price": 26,
@@ -109,7 +109,7 @@
     ,
     {
         "id": 14,
-        "image":"/src/assets/productos/salud-y-belleza/Ejercitador-de-dedos.jpg",
+        "image":"https://drive.google.com/file/d/1mquQLL7riORWsGsY8Kef6zh_3Ni-AhCT/view?usp=drive_link",
         "name": "Ejercitador de Dedos",
         "category": "Salud y Belleza",
         "price": 5,
@@ -118,7 +118,7 @@
     ,
     {
         "id": 15,
-        "image":"/src/assets/productos/salud-y-belleza/Saca-espiñillas-4pcs.jpg",
+        "image":"https://drive.google.com/file/d/11cJSAOGdppB9dDuZQ3ihDUfHm4tgKWFr/view?usp=drive_link",
         "name": "Saca Espiñillas 4 Piezas",
         "category": "Salud y Belleza",
         "price": 8,
@@ -127,7 +127,7 @@
     ,
     {
         "id": 16,
-        "image":"/src/assets/productos/niños-y-niñas/Mochila-ninos-dinosaurios.jpg",
+        "image":"https://drive.google.com/file/d/1orDUlV-gmo2trc50nLJtuUGUIjfKzncS/view?usp=drive_link",
         "name": "Mochila de Niños Dinosaurios",
         "category": "Niños y Niñas",
         "price": 50,
@@ -136,7 +136,7 @@
     ,
     {
         "id": 17,
-        "image":"/src/assets/productos/niños-y-niñas/Mochila-niños-cars.jpg",
+        "image":"https://drive.google.com/file/d/1pXU57n7AbYhPwUVNUUYI6LQSX0tzKtmD/view?usp=drive_link",
         "name": "Mochila de Niños Cars",
         "category": "Niños y Niñas",
         "price": 50,
@@ -145,7 +145,7 @@
     ,
     {
         "id": 18,
-        "image":"/src/assets/productos/niños-y-niñas/Mochila-ñinas-gatitos.jpg",
+        "image":"https://drive.google.com/file/d/186OzZz0z7udA8TI67EiUHXHTTQBTIcPe/view?usp=drive_link",
         "name": "Mochila de Niñas Gatitos",
         "category": "Niños y Niñas",
         "price": 50,
@@ -154,7 +154,7 @@
     ,
     {
         "id": 19,
-        "image":"/src/assets/productos/niños-y-niñas/Pizarra-magica.jpg",
+        "image":"https://drive.google.com/file/d/1j1sHOZfvjS6OLGMGXjGY47HQEn1CNpP4/view?usp=drive_link",
         "name": "Pizarra Mágica",
         "category": "Niños y Niñas",
         "price": 16,
@@ -163,7 +163,7 @@
     ,
     {
         "id": 20,
-        "image":"/src/assets/productos/niños-y-niñas/Set-de-arte-de-208pcs.jpg",
+        "image":"https://drive.google.com/file/d/16cTpmGaBc_IGBfr7Z39sqaMBsDAGBqo-/view?usp=drive_link",
         "name": "Set de Arte de 208 Piezas",
         "category": "Niños y Niñas",
         "price": 38,
@@ -172,7 +172,7 @@
     ,
     {
         "id": 21,
-        "image":"/src/assets/productos/hogar/Tetera-de-vidrio.jpg",
+        "image":"https://drive.google.com/file/d/108p8TiK23N99oP7djRk_V4uIkAPQIoSK/view?usp=drive_link",
         "name": "Tetera de Vidrio",
         "category": "Hogar",
         "price": 45,
