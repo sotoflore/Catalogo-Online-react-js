@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import ModalProduct from './ModalProduct';
 import CardProduct from './CardProduct';
 
-const ListProduct = ({ products }) => {
+const ListProduct = ({ products, addToCart }) => {
 
     const [showModal, setShowModal] = useState(false);
     const [selectedProduct, setSelectedProduct] = useState(null);
@@ -19,14 +19,14 @@ const ListProduct = ({ products }) => {
     };
 
     return (
-      <Container className=''>
+      <Container>
         <h2 className='text-center'>Explora nuestro Catálogo</h2>
         <p className='text-center mb-4'>¡Descubre la magia que solo la variedad puede ofrecer!</p>
         {products.length > 0 ? (
           <div className='row row-cols-2 row-cols-lg-4 row-cols-md-3 g-4'>
             {products.map(product => (
               <div key={product.id} className='col'>
-                  <CardProduct product={product} onShowDetails={handleShow}/>
+                  <CardProduct product={product} onShowDetails={handleShow}  addToCart={addToCart} />
               </div>
             ))}
           </div>
