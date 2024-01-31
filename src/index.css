@@ -1,6 +1,7 @@
 body{
   font-family: "Montserrat", sans-serif;
   background-color: #1a1a1a;
+  background-color: #030637;
 }
 .bg-primary,
 .text-bg-primary{
@@ -8,6 +9,7 @@ body{
 }
 .bg-list-product{
   background-color: #eeeeee;
+  background-color: #3C0753;
 }
 .shadow{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
@@ -30,7 +32,7 @@ body{
   width: 10px;
 }
 .product-cart::-webkit-scrollbar-track {
-  background: #3c38ff;
+  background: #198754;
   border-radius: 0 5px 5px 0;
 }
 
@@ -93,4 +95,16 @@ body{
   .notificacion {
       margin: 0 auto;
   }
+}
+
+
+
+.text-title{
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+background-image: linear-gradient(to right top, #e3ce0b, #ff9d12, #ff6446, #ff2278, #df0caa);
+  background-clip: text;
+  color: transparent;
+}
+.bg-card{
+  background-color: #910A67;
 }

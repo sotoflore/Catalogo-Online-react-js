@@ -101,7 +101,15 @@ const App = () => {
                 />
             </Col>
             <Col sm={12} xs={12} md={12} lg={9} className='bg-list-product my-4 rounded-4 px-0'>
-              <h1 className='text-uppercase fw-bold text-lg-center title z-3 mb-lg-2 pt-3'>A👁 LOOK</h1>
+              <h1 className='text-uppercase fw-bold text-lg-center title z-3 mb-lg-2 pt-3 text-white'>
+                {/* <span className='text-warning'>A</span>
+                <span className='text-white'>👁</span>
+                <span className='text-danger'>l</span>
+                <span className='text-white'>O</span>
+                <span className='text-primary'>O</span>
+                <span className='text-secondary'>K</span> */}
+                <span className='text-title'>A👁LOOK</span>
+              </h1>
               <Row className='align-items-center my-4'>
                 <Col sm={12} xs={12} md={6} lg={8}>
                   <SearchBar handleSearch={handleSearch} />

@@ -20,8 +20,8 @@ const ListProduct = ({ products, addToCart }) => {
 
     return (
       <Container>
-        <h2 className='text-center'>Explora nuestro Catálogo</h2>
-        <p className='text-center mb-4'>¡Descubre la magia que solo la variedad puede ofrecer!</p>
+        <h2 className='text-center text-white fw-bold'>Explora nuestro Catálogo</h2>
+        <p className='text-center mb-4 text-white'>¡Descubre la magia que solo la variedad puede ofrecer!</p>
         {products.length > 0 ? (
           <div className='row row-cols-2 row-cols-lg-4 row-cols-md-3 g-4'>
             {products.map(product => (
