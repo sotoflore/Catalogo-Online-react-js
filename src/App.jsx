@@ -11,7 +11,6 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import { ToastContainer, toast } from 'react-toastify';
 import Cart from './components/Cart';
 import IconCart from './components/icons/IconCart';
-import IconEyes from './components/icons/IconEyes';
 
 const App = () => {
     const [products, setProducts] = useState([]);
@@ -103,12 +102,6 @@ const App = () => {
             </Col>
             <Col sm={12} xs={12} md={12} lg={9} className='bg-list-product my-4 rounded-4 px-0'>
               <h1 className='text-uppercase fw-bold text-lg-center title z-3 mb-lg-2 pt-3 text-white'>
-                {/* <span className='text-warning'>A</span>
-                <span className='text-white'>👁</span>
-                <span className='text-danger'>l</span>
-                <span className='text-white'>O</span>
-                <span className='text-primary'>O</span>
-                <span className='text-secondary'>K</span> */}
                 <span className='text-title'>A</span>
                 <span className='text-white'>👁️</span>
                 <span className='text-title'>LOOK</span>
