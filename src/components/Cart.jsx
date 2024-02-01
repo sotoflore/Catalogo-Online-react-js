@@ -1,10 +1,17 @@
 import { Button } from 'react-bootstrap';
 import Badge from 'react-bootstrap/Badge';
 import ListGroup from 'react-bootstrap/ListGroup';
-import IconWhatsapp from './icons/IconWhatsapp';
 import IconMoney from './icons/IconMoney';
 
 const Cart = ({ cart, removeFromCart, clearCart }) => {
+
+  const generarMensajeWhatsApp = () => {
+      const productosEnWhatsApp = cart.map(item => `*${item.name}* - *s/${item.price}*.00 x ${item.quantity}`);
+      const cantidadTotal = cart.reduce((total, item) => total + item.quantity * item.price, 0).toFixed(2);
+      const mensaje = `¡Hola! Quiero realizar un pedido. Mis productos son:\n${productosEnWhatsApp.join('\n')}\n*Cantidad total a pagar*: ${cantidadTotal} soles`;
+      return encodeURIComponent(mensaje);
+  };
+
   return (
     <div>
       <h2 className='fs-5 fw-bold text-white text-center pt-2'>Tus Productos</h2>
@@ -27,7 +34,13 @@ const Cart = ({ cart, removeFromCart, clearCart }) => {
       </div>
       <p className='ps-3 text-white'>total a pagar: <Badge className='fw-bold bg-dark'>${cart.reduce((total, item) => total + item.quantity * item.price, 0).toFixed(2)}</Badge></p>
       <Button onClick={clearCart} className='bg-dark text-small border-0 mx-3 mb-3'>Vaciar carrito</Button>
-      <Button href="https://wa.me/+51902295945?" className='text-small bg-white text-black border-0 mb-3' target="_blank" rel="noopener noreferrer"><span className='pe-1'>Pedir y Pagar</span><IconMoney/></Button>
+      <Button 
+          href={`https://wa.me/+51902295945?text=${generarMensajeWhatsApp()}`} 
+          className='text-small bg-white text-black border-0 mb-3'
+          target="_blank" rel="noopener noreferrer"
+      >
+        <span className='pe-1'>Pedir y Pagar</span><IconMoney/>
+      </Button>
     </div>
   );
 };
