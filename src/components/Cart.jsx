@@ -14,17 +14,17 @@ const Cart = ({ cart, removeFromCart, clearCart }) => {
 
   return (
     <div>
-      <h2 className='fs-5 fw-bold text-white text-center pt-2'>Tus Productos</h2>
-      <p className='text-small ps-3 text-white'>Cantidad de productos:<span className='ps-1 fw-bold'>{cart.length}</span></p>
+      <p className='text-white'>Cantidad de productos:<span className='ps-1 fw-bold'>{cart.length}</span></p>
       <div className='row row-cols-1 row-cols-lg-1 row-cols-md-1'>
         {cart.map((item) => (
           <div key={item.id} className='col'>
             <ListGroup as="ol" className='px-2'>
               <ListGroup.Item as="li" className="d-flex justify-content-between align-items-start px-1 mb-3">
                 <div className="ms-2 me-auto">
+                  <img src={item.image} className='w-25 rounded-2' alt={item.name} />
                   <div className="fw-bold text-small">{item.name}</div>
                   <span className="text-small">precio: s/{item.price}.00</span>
-                  <Button onClick={() => removeFromCart(item.id)} className='text-small border-0 bg-danger d-block'>Eliminar</Button>
+                  <Button onClick={() => removeFromCart(item.id)} className='text-small border-0 bg-danger d-block mt-2'>Eliminar</Button>
                 </div>
                 <Badge bg="primary" pill>{item.quantity}</Badge>
               </ListGroup.Item>
@@ -32,11 +32,11 @@ const Cart = ({ cart, removeFromCart, clearCart }) => {
           </div>
         ))}
       </div>
-      <p className='ps-3 text-white'>total a pagar: <Badge className='fw-bold bg-dark'>${cart.reduce((total, item) => total + item.quantity * item.price, 0).toFixed(2)}</Badge></p>
-      <Button onClick={clearCart} className='bg-dark text-small border-0 mx-3 mb-3'>Vaciar carrito</Button>
+      <p className='text-white py-2'>Total a pagar: <span className='fw-bold bg-primary py-1 px-2 rounded-2'>s/{cart.reduce((total, item) => total + item.quantity * item.price, 0).toFixed(2)}</span></p>
+      <Button onClick={clearCart} className='bg-primary text-white fw-bold text-small border-0 mb-3 me-3'>Vaciar carrito</Button>
       <Button 
           href={`https://wa.me/+51902295945?text=${generarMensajeWhatsApp()}`} 
-          className='text-small bg-white text-black border-0 mb-3'
+          className='bg-success fw-bold text-small text-white border-0 mb-3'
           target="_blank" rel="noopener noreferrer"
       >
         <span className='pe-1'>Pedir y Pagar</span><IconMoney/>

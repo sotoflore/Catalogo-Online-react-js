@@ -1,110 +1,99 @@
 body{
   font-family: "Montserrat", sans-serif;
-  background-color: #1a1a1a;
-  background-color: #030637;
+  /* background-color: #1a1a1a;
+  background-color: #030637; */
+  background-color: #ebebeb;
 }
-.bg-primary,
-.text-bg-primary{
-  background-color: #3c38ff !important;
-}
-.bg-list-product{
-  background-color: #eeeeee;
+.bg-header{
   background-color: #3C0753;
 }
+.text-title {
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background-image: linear-gradient(to right top, #e3ce0b, #ff9d12, #ff6446, #ff2278, #df0caa);
+  background-clip: text;
+  color: transparent;
+}
+.modal-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+.modal-scrollbar::-webkit-scrollbar-track {
+  border-radius: 0 5px 5px 0;
+}
+.modal-scrollbar::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 10px;
+}
 .shadow{
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+              rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+              rgba(0, 0, 0, 0.2) 0px -3px 0px inset !important;
+}
+.shadow-sm{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+}
+.section-carousel{
+    margin-top: 8rem;
+    margin-bottom: 2.5rem;
+}
+.text-shadow{
+  text-shadow: 2px 2px 0 #3C0753, 
+                      2px -2px 0 #3C0753, 
+                      -2px 2px 0 #3C0753, 
+                      -2px -2px 0 #3C0753, 
+                      2px 0px 0 #3C0753, 
+                      0px 2px 0 #3C0753, 
+                      -2px 0px 0 #3C0753, 
+                      0px -2px 0 #3C0753;
+    color: #00bf72;
+}
+.bg-success{
+  background-color: #00bf72 !important;
+}
+.shadow-button{
+box-shadow: rgb(38, 57, 77) 0px 20px 15px -10px;
+}
+.bg-primary,
+.text-bg-primary {
+  background-color: #3c38ff !important;
+}
+.text-primary{
+  color: #3c38ff !important;
 }
 .bg-danger,
 .text-bg-danger {
   background-color: #dc2626 !important;
 }
-.text-small{
-  font-size: .8rem;
+.section-product-details{
+  min-height: 100vh;
 }
-.product-cart{
-  width: 300px;
-  height: 400px;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  margin-left: em !important;
-}
-.product-cart::-webkit-scrollbar {
-  width: 10px;
-}
-.product-cart::-webkit-scrollbar-track {
-  background: #198754;
-  border-radius: 0 5px 5px 0;
-}
-
-.product-cart::-webkit-scrollbar-thumb {
-  background: #fff;
-  border-radius: 10px;
-}
-
-@media ( 0 <= width < 992px) {
-  .list-category,
-  .group-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+@media (width < 768px ){
+  .text-small{
+    font-size: .7rem !important;
   }
-  .btn-todo{
-    margin: 0 .7rem 0 0;
-  }
-  .btn-filter,
-  .btn-price-filter{
-    background-color: #3c38ff !important;
-    flex-grow: 1;
-    margin: 0 .7rem 0 0;
-  }
-  .btn-price-filter{
-    margin-bottom: 1rem;
-    border-radius: .4rem;
-    padding: 0 .5rem;
-  }
-  .fixed-top {
-    position: relative !important;
+  .search{
     width: 100% !important;
-    padding: 0 !important;
+    border-radius: 6px !important;
+  }
+  .section-carousel{
     margin-top: 10rem;
-    z-index: 1;
   }
-  .bg-list-product{
-    border-radius: 1rem 1rem 0 0 !important;
-    padding: 4rem 0 2rem 0 !important;
+  .section-product-details{
+    margin-bottom: 5rem;
   }
-  .title{
-    position: fixed;
-    top: 0;
-    padding: 1rem 1.5rem !important;
-    box-shadow: none !important;
-  }
-  .bar-position-sticky,
-  .shopping{ 
-    position: fixed !important;
-    left: 0;
-    border-radius: 0 !important;
-    top:0;
-    padding: 1rem 0;
-  }
-  .shopping {
-      right: 1.5rem;
-      width: 100 !important;
-  }
-  .notificacion {
-      margin: 0 auto;
+  .image-details{
+    width: 100% !important;
   }
 }
-
-
-
-.text-title{
-  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-background-image: linear-gradient(to right top, #e3ce0b, #ff9d12, #ff6446, #ff2278, #df0caa);
-  background-clip: text;
-  color: transparent;
-}
-.bg-card{
-  background-color: #910A67;
+@media (768px <= width <= 992px ){
+  .text-small{
+    font-size: 1rem;
+  }
+  .search {
+    width: 100% !important;
+    border-radius: 6px !important;
+  }
+  .section-carousel {
+    margin-top: 11.5rem;
+  }
 }
