@@ -20,10 +20,12 @@ const Cart = ({ cart, removeFromCart, clearCart }) => {
           <div key={item.id} className='col'>
             <ListGroup as="ol" className='px-2'>
               <ListGroup.Item as="li" className="d-flex justify-content-between align-items-start px-1 mb-3">
-                <div className="ms-2 me-auto">
+                <div className="ms-2 me-auto d-flex align-items-center justify-content-between">
                   <img src={item.image} className='w-25 rounded-2' alt={item.name} />
-                  <div className="fw-bold text-small">{item.name}</div>
-                  <span className="text-small">precio: s/{item.price}.00</span>
+                  <div className='ps-3'>
+                    <div className="fw-bold text-small">{item.name}</div>
+                    <span className="text-small">precio: s/{item.price}.00</span>
+                  </div>
                   <Button onClick={() => removeFromCart(item.id)} className='text-small border-0 bg-danger d-block mt-2'>Eliminar</Button>
                 </div>
                 <Badge bg="primary" pill>{item.quantity}</Badge>
