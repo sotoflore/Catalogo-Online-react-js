@@ -81,6 +81,9 @@ box-shadow: rgb(38, 57, 77) 0px 20px 15px -10px;
   .section-product-details{
     margin-bottom: 5rem;
   }
+  .button-back{
+    width: 100%;
+  }
   .image-details{
     width: 100% !important;
   }
