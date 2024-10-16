@@ -1,4 +1,6 @@
 # Catalogo Online 
+Este proyecto es una aplicación web de un catálogo online desarrollada con React, que permite a los usuarios explorar  productos organizados en diferentes categorías. Los usuarios pueden ver los detalles de los productos, agregarlos al carrito de compras y proceder al checkout.
+
 ![web app](https://github.com/sotoflore/Catalogo-Online-react-js/blob/main/public/web-app.png)
 
 ## Productos
