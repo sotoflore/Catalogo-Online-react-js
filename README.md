@@ -1,8 +1,16 @@
-# React + Vite
+# Catalogo Online 
+![web app](https://github.com/sotoflore/Catalogo-Online-react-js/blob/main/public/web-app.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Productos
+![web app](https://github.com/sotoflore/Catalogo-Online-react-js/blob/main/public/web-app-component.png)
 
-Currently, two official plugins are available:
+## Carrito de Compras
+![web app](https://github.com/sotoflore/Catalogo-Online-react-js/blob/main/public/web-cart.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias
+- React
+- JavaScript
+- React Bootstrap
+- React Router Dom
+- React Swift Reveal
+- React Toastify
