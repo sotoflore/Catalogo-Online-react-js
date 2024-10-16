@@ -16,3 +16,27 @@ Este proyecto es una aplicación web de un catálogo online desarrollada con Rea
 - React Router Dom
 - React Swift Reveal
 - React Toastify
+
+## Instalación
+
+Sigue estos pasos para ejecutar el proyecto en tu entorno local:
+
+1. Clona el repositorio:
+    ```bash
+    https://github.com/sotoflore/Catalogo-Online-react-js.git
+    ```
+2. Entra en el directorio del proyecto:
+    ```bash
+    cd Catalogo-Online-react-js
+    ```
+3. Instala las dependencias:
+    ```bash
+    npm install
+    ```
+
+4. Ejecuta el servidor de desarrollo:
+    ```bash
+    npm run dev
+    ```
+
+5. Abre la aplicación en tu navegador en la dirección [http://localhost:5173](http://localhost:5173) por vite.js.
